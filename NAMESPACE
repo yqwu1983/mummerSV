@@ -1,0 +1,3 @@
+useDynLib(mummerSV)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
